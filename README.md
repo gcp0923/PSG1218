@@ -1,4 +1,6 @@
-自制测试用，fork 来自大佬，为了K2 瞎改，自用。
+自制测试用，fork 来自大佬，为了K2 瞎改，自用, 改到 https://github.com/gcp0923/lede
+
+
 
 # OpenWrt firmware for K2-PSG1218-A
 固件采用GitHub Actions不定时自动云编译斐讯K2-PSG1218-A。  
