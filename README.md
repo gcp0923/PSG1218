@@ -1,3 +1,4 @@
+自制测试用
 
 # OpenWrt firmware for K2-PSG1218-A
 固件采用GitHub Actions不定时自动云编译斐讯K2-PSG1218-A。  
