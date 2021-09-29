@@ -1,0 +1,10 @@
+0929-1152
+https://github.com/gcp0923/lede 
+feeds.conf.default
+增加
+src-git kenzo https://github.com/kenzok8/openwrt-packages
+src-git small https://github.com/kenzok8/small
+
+https://github.com/gcp0923/PSG1218/blob/master/.config
+中增加
+CONFIG_PACKAGE_luci-app-ssr-plus=y
