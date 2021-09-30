@@ -1,5 +1,23 @@
 自制测试用，fork 来自大佬，为了K2 瞎改，自用, 改到 https://github.com/gcp0923/lede
 
+shadowsocks-libev 的配置有bug
+
+折衷解决方法:
+https://github.com/gcp0923/openwrt-packages/blob/master/luci-app-ssr-plus/Makefile
+
+LUCI_DEPENDS:=+coreutils +coreutils-base64 +dns2socks +dnsmasq-full +ipset \
+	+ip-full +iptables-mod-tproxy +lua +libuci-lua +microsocks +pdnsd-alt \
+	+tcping +resolveip +shadowsocksr-libev-ssr-check +uclient-fetch \
+	+shadowsocks-libev-ss-redir +simple-obfs \
+
+原文
+LUCI_DEPENDS:= . . . .
+	+PACKAGE_$(PKG_NAME)_INCLUDE_Shadowsocks_Libev_Client:shadowsocks-libev-ss-local \
+	+PACKAGE_$(PKG_NAME)_INCLUDE_Shadowsocks_Libev_Client:shadowsocks-libev-ss-redir \
+	+PACKAGE_$(PKG_NAME)_INCLUDE_Shadowsocks_Libev_Server:shadowsocks-libev-ss-server \
+
+我看不懂，也不想再改了，只是为了我的K2能跑 SS-Libev 和 Trojan，删了网易，删了 nlbmonitor, 还有别的什么玩意，K2 内存CPU 不行，不要这些花哨
+但是 Shadowsocks-Libev 被认成 Shadowsocks New Version? 
 
 
 # OpenWrt firmware for K2-PSG1218-A
