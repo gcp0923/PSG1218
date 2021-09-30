@@ -8,3 +8,7 @@ src-git small https://github.com/kenzok8/small
 https://github.com/gcp0923/PSG1218/blob/master/.config
 中增加
 CONFIG_PACKAGE_luci-app-ssr-plus=y
+
+
+0930
+无法加上 sslibev，不知道哪错了。
