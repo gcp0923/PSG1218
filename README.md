@@ -1,6 +1,6 @@
 自制测试用，fork 来自大佬，为了K2 瞎改，自用, 改到 https://github.com/gcp0923/lede
 
-shadowsocks-libev 来自 kenzok8/openwrt-packages 的配置有bug
+shadowsocks-libev 来自 https://github.com/kenzok8/openwrt-packages/blob/master/luci-app-ssr-plus/Makefile  的配置好像有问题，无法加载shadowsocks-libev-ss-redir，这个模块已经在config中引用了
 
 折衷解决方法:
 https://github.com/gcp0923/openwrt-packages/blob/master/luci-app-ssr-plus/Makefile
