@@ -1,3 +1,5 @@
+改到默认的 openwrt
+
 连接数多了挂住，然后会重启
 
 自制测试用，fork 来自大佬，为了K2 瞎改，自用, 改到 https://github.com/gcp0923/lede
