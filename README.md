@@ -1,4 +1,5 @@
 改到默认的 openwrt
+https://github.com/gcp0923/openwrt
 
 连接数多了挂住，然后会重启
 
