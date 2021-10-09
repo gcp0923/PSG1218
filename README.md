@@ -1,3 +1,11 @@
+从openwrt + helloworld 重新编译的，ssr-plus是复制到helloworld里了，还有其它几个组件
+只有trojan
+https://github.com/gcp0923/PSG1218/blob/master/openwrt-ramips-mt7620-phicomm_k2-v22.4-squashfs-sysupgrade%20(2).bin
+这个应该是okay了，不会重启的
+
+shadowsocks-libev 没有能装上去，估计空间也不够
+
+
 改到默认的 openwrt
 https://github.com/gcp0923/openwrt
 
