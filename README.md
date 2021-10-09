@@ -1,5 +1,5 @@
 这个版本 2021.10.09-0959 是okay的，只有 trojan，没有 ss-libev。Phicomm K2 PSG1218 k2-v22.4 以下可用
-
+https://github.com/gcp0923/PSG1218/releases/download/2021.10.09-0959/openwrt-ramips-mt7620-phicomm_k2-v22.4-squashfs-sysupgrade.bin
 去掉了 PPP，ipv6，在helloworld 里面加了 ssr plus 需要的组件
 openwrt的include 的 target 里把一些不要的删除了。
 
