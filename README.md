@@ -3,6 +3,10 @@ https://github.com/gcp0923/PSG1218/releases/download/2021.10.09-0959/openwrt-ram
 去掉了 PPP，ipv6，在helloworld 里面加了 ssr plus 需要的组件
 openwrt的include 的 target 里把一些不要的删除了。
 
+配置 PSG1218 .config
+openwrt include/target.mk
+helloworld ssrplus/makefile
+
 从openwrt + helloworld 重新编译的，ssr-plus是复制到helloworld里了，还有其它几个组件
 只有trojan
 https://github.com/gcp0923/PSG1218/blob/master/openwrt-ramips-mt7620-phicomm_k2-v22.4-squashfs-sysupgrade%20(2).bin
